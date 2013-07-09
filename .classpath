@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/antlrworks-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/arq-2.8.4.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/asm-3.0.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/esper-4.8.0.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/icu4j-3.4.4.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/iri-0.8.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/jena-2.6.3_2.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/jena-2.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/jena-tdb-0.9.4.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/junit-4.5.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/lucene-core-2.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/openrdf-sesame-2.3.1-onejar.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/slf4j-api-1.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/slf4j-jcl-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/wstx-asl-3.2.9.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9_lib/xercesImpl-2.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/csparqlengine-0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Colin/DataGen/DataGenerator/dist/DataGenerator.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Colin/Coror/dist/Coror.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

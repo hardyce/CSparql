@@ -1,0 +1,1440 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:j.0="http://localhost/default/tr069#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://localhost/default/tr069#DeviceComponent">
+    <rdfs:subClassOf rdf:resource="http://localhost/default/tr069#DeviceComponent"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://localhost/default/tr069#DeviceComponent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#double">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRabP6">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>SuccessHO</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedByte">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003">
+    <rdf:type rdf:resource="http://localhost/default/tr069#Device"/>
+    <j.0:DeviceFriendlyName>Femto003</j.0:DeviceFriendlyName>
+    <j.0:DeviceModel>TR069</j.0:DeviceModel>
+    <j.0:DeviceSerialNumber>003</j.0:DeviceSerialNumber>
+    <j.0:DeviceName>TestFemto003</j.0:DeviceName>
+    <j.0:hasComponents rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1"/>
+    <j.0:hasComponents rdf:resource="http://localhost/default/tr069#TestFemto003_FAPDevice1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#DeviceManagedObject">
+    <rdfs:subClassOf rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRabP5">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>FailHO</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRabP5">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>FailHO</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPDevice1DIMemoryStatusP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>Total</j.0:ParameterName>
+    <j.0:ParameterValue>200</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#hasManagedObjects">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#hasManagedObjects"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1AccessMgtUmts">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1AccessMgtUmtsP1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPDevice1DIMemoryStatus">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPDevice1DIMemoryStatusP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPDevice1DIMemoryStatusP2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#disjointWith">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1FAPControlUmtsP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>OpState</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gMonthDay">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002">
+    <rdf:type rdf:resource="http://localhost/default/tr069#Device"/>
+    <j.0:DeviceFriendlyName>Femto002</j.0:DeviceFriendlyName>
+    <j.0:DeviceModel>TR069</j.0:DeviceModel>
+    <j.0:DeviceSerialNumber>002</j.0:DeviceSerialNumber>
+    <j.0:DeviceName>TestFemto002</j.0:DeviceName>
+    <j.0:hasComponents rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1"/>
+    <j.0:hasComponents rdf:resource="http://localhost/default/tr069#TestFemto002_FAPDevice1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRab">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP2"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP3"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP4"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP5"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRabP4">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RABFailEstabPS</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1TransportRealtimeP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>SentPackets</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRabP4">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RABFailEstabPS</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRabP4">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RABFailEstabPS</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1AccessMgtUmts">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1AccessMgtUmtsP1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedShort">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPDevice1DIMemoryStatusP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>Free</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPDevice1DIMemoryStatusP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>Free</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1FAPControlUmtsP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>AdminState</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1TransportRealtimeP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RcvPackets</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedInt">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRabP5">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>FailHO</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPDevice1DIMemoryStatusP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>Free</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#DeviceFriendlyName">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#DeviceFriendlyName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#intersectionOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#intersectionOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1FAPControlUmtsP3">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RFTxStatus</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anyURI">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004">
+    <rdf:type rdf:resource="http://localhost/default/tr069#Device"/>
+    <j.0:DeviceFriendlyName>Femto004</j.0:DeviceFriendlyName>
+    <j.0:DeviceModel>TR069</j.0:DeviceModel>
+    <j.0:DeviceSerialNumber>004</j.0:DeviceSerialNumber>
+    <j.0:DeviceName>TestFemto004</j.0:DeviceName>
+    <j.0:hasComponents rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1"/>
+    <j.0:hasComponents rdf:resource="http://localhost/default/tr069#TestFemto004_FAPDevice1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#MOName">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#MOName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRabP6">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>SuccessHO</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1TransportRealtimeP3">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>BytesSent</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(inc)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRabP6">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>SuccessHO</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1TransportRealtimeP4">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>BytesReceived</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#positiveInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1TransportRealtimeP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>SentPackets</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RABSuccEstabCS</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#long">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1TransportRealtimeP3">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>BytesSent</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(inc)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Property">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Property"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#incompatibleWith">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#incompatibleWith"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1TransportRealtimeP4">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>BytesReceived</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1">
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1FAPControlUmts"/>
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceComponent"/>
+    <j.0:MOName>FAPService.1.CellConfig.Umts.Rab</j.0:MOName>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1TransportRealtime"/>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRab"/>
+    <j.0:MOName>FAPService.1.AccessMgt.Umts</j.0:MOName>
+    <j.0:MOName>FAPService.1.FAP.Control.Umts</j.0:MOName>
+    <j.0:ComponentName>FAPService1</j.0:ComponentName>
+    <j.0:MOName>FAPService.1.Transport.Realtime</j.0:MOName>
+    <j.0:ComponentId>FAPService.1</j.0:ComponentId>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1AccessMgtUmts"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1FAPControlUmts">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1FAPControlUmtsP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1FAPControlUmtsP2"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1FAPControlUmtsP3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPDevice1DIMemoryStatusP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>Total</j.0:ParameterName>
+    <j.0:ParameterValue>200</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1AccessMgtUmtsP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>AccessMode</j.0:ParameterName>
+    <j.0:ParameterValue>{string [enum(open,closed,hybrid)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1TransportRealtimeP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RcvPackets</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#ParameterName">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#ParameterName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1FAPControlUmtsP3">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RFTxStatus</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1TransportRealtime">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1TransportRealtimeP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1TransportRealtimeP2"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1TransportRealtimeP3"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1TransportRealtimeP4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1AccessMgtUmtsP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>AccessMode</j.0:ParameterName>
+    <j.0:ParameterValue>{string [enum(open,closed,hybrid)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Ontology">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPDevice1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceComponent"/>
+    <j.0:ComponentName>FAPDevice.1.DeviceInfo_MemoryStatus</j.0:ComponentName>
+    <j.0:ComponentId>FAPDevice1</j.0:ComponentId>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto002_FAPDevice1DIMemoryStatus"/>
+    <j.0:MOName>DeviceInfo.MemoryStatus</j.0:MOName>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1TransportRealtimeP3">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>BytesSent</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(inc)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#oneOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#oneOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP3">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RABSuccEstabPS</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#DeviceModel">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#DeviceModel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1FAPControlUmts">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1FAPControlUmtsP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1FAPControlUmtsP2"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1FAPControlUmtsP3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#InverseFunctionalProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1TransportRealtimeP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>SentPackets</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1TransportRealtimeP4">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>BytesReceived</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#priorVersion">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#priorVersion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1">
+    <j.0:MOName>FAPService.1.FAP.Control.Umts</j.0:MOName>
+    <j.0:ComponentName>FAPService1</j.0:ComponentName>
+    <j.0:MOName>FAPService.1.AccessMgt.Umts</j.0:MOName>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1TransportRealtime"/>
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceComponent"/>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1FAPControlUmts"/>
+    <j.0:MOName>FAPService.1.Transport.Realtime</j.0:MOName>
+    <j.0:ComponentId>FAPService.1</j.0:ComponentId>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1AccessMgtUmts"/>
+    <j.0:MOName>FAPService.1.CellConfig.Umts.Rab</j.0:MOName>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRab"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1TransportRealtimeP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RcvPackets</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#ComponentId">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#ComponentId"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RABFailEstabCS</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#date">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1AccessMgtUmts">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1AccessMgtUmtsP1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPDevice1DIMemoryStatusP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>Free</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#backwardCompatibleWith">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#backwardCompatibleWith"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#unsignedLong">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPDevice1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceComponent"/>
+    <j.0:ComponentName>FAPDevice.1.DeviceInfo_MemoryStatus</j.0:ComponentName>
+    <j.0:ComponentId>FAPDevice1</j.0:ComponentId>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto003_FAPDevice1DIMemoryStatus"/>
+    <j.0:MOName>DeviceInfo.MemoryStatus</j.0:MOName>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRab">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRabP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRabP2"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRabP3"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRabP4"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRabP5"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRabP6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#hexBinary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Restriction">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1FAPControlUmtsP3">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RFTxStatus</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#ParameterValue">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#ParameterValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#time">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedLong"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedByte"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#nonPositiveInteger"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP5">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>FailHO</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1TransportRealtime">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1TransportRealtimeP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1TransportRealtimeP2"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1TransportRealtimeP3"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto003_FAPService1TransportRealtimeP4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gYearMonth">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentProperty">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1TransportRealtimeP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>SentPackets</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#byte">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1TransportRealtime">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1TransportRealtimeP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1TransportRealtimeP2"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1TransportRealtimeP3"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1TransportRealtimeP4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP4">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RABFailEstabPS</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPDevice1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceComponent"/>
+    <j.0:ComponentName>FAPDevice.1.DeviceInfo_MemoryStatus</j.0:ComponentName>
+    <j.0:ComponentId>FAPDevice1</j.0:ComponentId>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto004_FAPDevice1DIMemoryStatus"/>
+    <j.0:MOName>DeviceInfo.MemoryStatus</j.0:MOName>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#int">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#DeviceParameter">
+    <rdfs:subClassOf rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1FAPControlUmtsP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>AdminState</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1TransportRealtimeP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RcvPackets</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#Device">
+    <rdfs:subClassOf rdf:resource="http://localhost/default/tr069#Device"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://localhost/default/tr069#Device"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1TransportRealtime">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1TransportRealtimeP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1TransportRealtimeP2"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1TransportRealtimeP3"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1TransportRealtimeP4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1FAPControlUmtsP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>AdminState</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#hasComponents">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#hasComponents"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1AccessMgtUmtsP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>AccessMode</j.0:ParameterName>
+    <j.0:ParameterValue>{string [enum(open,closed,hybrid)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1TransportRealtimeP3">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>BytesSent</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(inc)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRab">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRabP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRabP2"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRabP3"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRabP4"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRabP5"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRabP6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1FAPControlUmtsP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>OpState</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRab">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRabP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRabP2"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRabP3"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRabP4"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRabP5"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRabP6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#short">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#ComponentName">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#ComponentName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1FAPControlUmtsP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>OpState</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#SymmetricProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1">
+    <j.0:ComponentName>FAPService1</j.0:ComponentName>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1TransportRealtime"/>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1FAPControlUmts"/>
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceComponent"/>
+    <j.0:MOName>FAPService.1.Transport.Realtime</j.0:MOName>
+    <j.0:MOName>FAPService.1.CellConfig.Umts.Rab</j.0:MOName>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRab"/>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto002_FAPService1AccessMgtUmts"/>
+    <j.0:MOName>FAPService.1.FAP.Control.Umts</j.0:MOName>
+    <j.0:ComponentId>FAPService.1</j.0:ComponentId>
+    <j.0:MOName>FAPService.1.AccessMgt.Umts</j.0:MOName>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#base64Binary">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1CellConfigUmtsRabP6">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>SuccessHO</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPDevice1DIMemoryStatus">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPDevice1DIMemoryStatusP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto002_FAPDevice1DIMemoryStatusP2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto003_FAPService1FAPControlUmtsP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>AdminState</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1TransportRealtimeP4">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>BytesReceived</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:200);mode(dec)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integer">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1FAPControlUmtsP3">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RFTxStatus</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1CellConfigUmtsRabP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RABSuccEstabCS</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1AccessMgtUmts">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1AccessMgtUmtsP1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1AccessMgtUmtsP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>AccessMode</j.0:ParameterName>
+    <j.0:ParameterValue>{string [enum(open,closed,hybrid)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#hasParameters">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#hasParameters"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#nonPositiveInteger">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRabP2">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RABFailEstabCS</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#onProperty">
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#decimal">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <owl:disjointWith rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1FAPControlUmts">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceManagedObject"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1FAPControlUmtsP1"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1FAPControlUmtsP2"/>
+    <j.0:hasParameters rdf:resource="http://localhost/default/tr069#TestFemto001_FAPService1FAPControlUmtsP3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1">
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRab"/>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1TransportRealtime"/>
+    <j.0:ComponentName>FAPService1</j.0:ComponentName>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1FAPControlUmts"/>
+    <j.0:MOName>FAPService.1.Transport.Realtime</j.0:MOName>
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceComponent"/>
+    <j.0:MOName>FAPService.1.CellConfig.Umts.Rab</j.0:MOName>
+    <j.0:hasManagedObjects rdf:resource="http://localhost/default/tr069#TestFemto004_FAPService1AccessMgtUmts"/>
+    <j.0:MOName>FAPService.1.AccessMgt.Umts</j.0:MOName>
+    <j.0:ComponentId>FAPService.1</j.0:ComponentId>
+    <j.0:MOName>FAPService.1.FAP.Control.Umts</j.0:MOName>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#DeviceName">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#DeviceName"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#DeviceSerialNumber">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subPropertyOf rdf:resource="http://localhost/default/tr069#DeviceSerialNumber"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#OntologyProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPService1FAPControlUmtsP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>OpState</j.0:ParameterName>
+    <j.0:ParameterValue>{boolean []}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto001_FAPService1CellConfigUmtsRabP3">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RABSuccEstabPS</j.0:ParameterName>
+    <j.0:ParameterValue>{unsignedInt [range(0:100)]}</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPDevice1DIMemoryStatusP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>Total</j.0:ParameterName>
+    <j.0:ParameterValue>200</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto002_FAPDevice1DIMemoryStatusP1">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>Total</j.0:ParameterName>
+    <j.0:ParameterValue>200</j.0:ParameterValue>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+    <owl:equivalentProperty rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gMonth">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#differentFrom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#differentFrom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://localhost/default/tr069#TestFemto004_FAPService1CellConfigUmtsRabP3">
+    <rdf:type rdf:resource="http://localhost/default/tr069#DeviceParameter"/>
+    <j.0:ParameterName>RABSuccEstabPS</j.
