@@ -65,11 +65,11 @@ public class SR {
                                         + " FILTER(f:timestamp(?s,?p,?o)=?ts) } " 
                                         ;
         
-        String query3 ="REGISTER QUERY StreamQuery COMPUTED EVERY 5s AS "
+        String query3 ="REGISTER QUERY StreamQuery COMPUTED EVERY 1s AS "
                                         + "PREFIX ex: <http://localhost/default/tr069#> "
                                         + "PREFIX f: <http://larkc.eu/csparql/sparql/jena/ext#> "
 					+ "SELECT ?s ?p ?o (f:timestamp(?s,?p,?o) AS ?ts)"
-					+ "FROM STREAM <http://localhost/default/tr069> [RANGE TRIPLES 20] "
+					+ "FROM STREAM <http://localhost/default/tr069> [RANGE 5s step 1s] "
 					+ "WHERE { ?s ?p ?o }"
                                         ;
         

@@ -34,7 +34,9 @@ public class newFileStream {
     static int mad_cows = 6;
     static int biopax = 7;
     static int food = 8;
-    static int mode = teams;
+    static int isIn=9;
+    
+    static int mode = food;
     static String subj;
     static String pred;
     static String obj;
@@ -86,10 +88,22 @@ public class newFileStream {
         String subject2;
         String predicate2;
         String object2;
+        String subject3;
+        String predicate3;
+        String object3;
+        String subject4;
+        String predicate4;
+        String object4;
+        String subject5;
+        String predicate5;
+        String object5;
+        
         String[] triparray1 = new String[4];
         String[] triparray2 = new String[4];
         String[] triparray3 = new String[4];
         String[] triparray4 = new String[4];
+        String[] triparray5 = new String[4];
+        String[] triparray6 = new String[4];
         switch (mode) {
             case 1:
                 subject = "http://owl.man.ac.uk/2005/sssw/teams#john" + i;
@@ -120,6 +134,8 @@ public class newFileStream {
                 triparray2[0] = subject1;
                 triparray2[1] = predicate;
                 triparray2[2] = object1;
+                triparray1[3] = String.valueOf(System.currentTimeMillis());
+                triparray2[3] = String.valueOf(System.currentTimeMillis());
                 list.add(triparray1);
                 list.add(triparray2);
                 break;
@@ -135,6 +151,8 @@ public class newFileStream {
                 triparray2[0] = subject1;
                 triparray2[1] = predicate;
                 triparray2[2] = object1;
+                triparray1[3] = String.valueOf(System.currentTimeMillis());
+                triparray2[3] = String.valueOf(System.currentTimeMillis());
                 list.add(triparray1);
                 list.add(triparray2);
                 break;
@@ -155,6 +173,9 @@ public class newFileStream {
                 triparray3[0] = subject;
                 triparray3[1] = predicate2;
                 triparray3[2] = object2;
+                triparray1[3] = String.valueOf(System.currentTimeMillis());
+                triparray2[3] = String.valueOf(System.currentTimeMillis());
+                triparray3[3] = String.valueOf(System.currentTimeMillis());
                 list.add(triparray1);
                 list.add(triparray2);
                 list.add(triparray3);
@@ -171,6 +192,9 @@ public class newFileStream {
                 triparray2[0] = subject1;
                 triparray2[1] = predicate;
                 triparray2[2] = object1;
+                triparray1[3] = String.valueOf(System.currentTimeMillis());
+                triparray2[3] = String.valueOf(System.currentTimeMillis());
+                triparray3[3] = String.valueOf(System.currentTimeMillis());
                 list.add(triparray1);
                 list.add(triparray2);
                 break;
@@ -195,6 +219,10 @@ public class newFileStream {
                 triparray4[0] = subject;
                 triparray4[1] = predicate2;
                 triparray4[2] = subject1;
+                triparray1[3] = String.valueOf(System.currentTimeMillis());
+                triparray2[3] = String.valueOf(System.currentTimeMillis());
+                triparray3[3] = String.valueOf(System.currentTimeMillis());
+                triparray4[3] = String.valueOf(System.currentTimeMillis());
                 list.add(triparray1);
                 list.add(triparray2);
                 list.add(triparray3);
@@ -216,6 +244,9 @@ public class newFileStream {
                 triparray3[0] = subject;
                 triparray3[1] = predicate1;
                 triparray3[2] = subject1;
+                triparray1[3] = String.valueOf(System.currentTimeMillis());
+                triparray2[3] = String.valueOf(System.currentTimeMillis());
+                triparray3[3] = String.valueOf(System.currentTimeMillis());
                 list.add(triparray1);
                 list.add(triparray2);
                 list.add(triparray3);
@@ -237,9 +268,66 @@ public class newFileStream {
                 triparray3[0] = subject2;
                 triparray3[1] = predicate;
                 triparray3[2] = object2;
+                triparray1[3] = String.valueOf(System.currentTimeMillis());
+                triparray2[3] = String.valueOf(System.currentTimeMillis());
+                triparray3[3] = String.valueOf(System.currentTimeMillis());
                 list.add(triparray1);
                 list.add(triparray2);
                 list.add(triparray3);
+                break;
+                
+            case 9:
+                subject="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#A"+i;
+                predicate="http://www.w3.org/1999/02/22-rdf-syntax-ns#type";
+                object="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#A";
+                subject1="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#B"+i;
+                predicate1="http://www.w3.org/1999/02/22-rdf-syntax-ns#type";
+                object1="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#B";
+                subject2="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#C"+i;
+                predicate2="http://www.w3.org/1999/02/22-rdf-syntax-ns#type";
+                object2="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#C";
+                triparray1[0]=subject;
+                triparray1[1]=predicate;
+                triparray1[2]=object;
+                triparray2[0]=subject1;
+                triparray2[1]=predicate1;
+                triparray2[2]=object1;
+                triparray3[0]=subject2;
+                triparray3[1]=predicate2;
+                triparray3[2]=object2;
+                triparray1[3] = String.valueOf(System.currentTimeMillis());
+                triparray2[3] = String.valueOf(System.currentTimeMillis());
+                triparray3[3] = String.valueOf(System.currentTimeMillis());
+                list.add(triparray1);
+                list.add(triparray2);
+                list.add(triparray3);
+                
+                if(i>0){
+                subject3="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#A"+i;
+                predicate3="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#isIn";
+                object3="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#A"+(i-1);
+                subject4="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#B"+i;
+                predicate4="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#isIn";
+                object4="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#B"+(i-1);
+                subject5="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#C"+i;
+                predicate5="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#isIn";
+                object5="http://www.semanticweb.org/colin/ontologies/2013/6/untitled-ontology-6#C"+(i-1); 
+                triparray4[0]=subject3;
+                triparray4[1]=predicate3;
+                triparray4[2]=object3;
+                triparray5[0]=subject4;
+                triparray5[1]=predicate4;
+                triparray5[2]=object4;
+                triparray6[0]=subject5;
+                triparray6[1]=predicate5;
+                triparray6[2]=object5;
+                triparray4[3] = String.valueOf(System.currentTimeMillis());
+                triparray5[3] = String.valueOf(System.currentTimeMillis());
+                triparray6[3] = String.valueOf(System.currentTimeMillis());
+                list.add(triparray4);
+                list.add(triparray5);
+                list.add(triparray6);
+                }
 
         }
         return list;

@@ -9,6 +9,7 @@ import ie.tcd.cs.nembes.coror.graph.Factory;
 import ie.tcd.cs.nembes.coror.graph.Graph;
 import ie.tcd.cs.nembes.coror.graph.Node;
 import ie.tcd.cs.nembes.coror.graph.temporal.TemporalTriple;
+import ie.tcd.cs.nembes.coror.reasoner.FGraph;
 import ie.tcd.cs.nembes.coror.reasoner.InfGraph;
 import ie.tcd.cs.nembes.coror.reasoner.rulesys.RETERuleInfGraph;
 import ie.tcd.cs.nembes.coror.reasoner.rulesys.TemporalRETERuleInfGraph;
@@ -21,7 +22,7 @@ import ie.tcd.cs.nembes.coror.util.iterator.ExtendedIterator;
 public class TemporalTest {
     
     public static void main(String args[]){
-        int i=7;
+        int i=5;
     
     Coror coror = new Coror("C:/Users/Colin/Coror/resources/reasoner.config");
     Graph graph = Factory.createDefaultGraph();
@@ -40,23 +41,28 @@ public class TemporalTest {
     TemporalTriple tt1 = new TemporalTriple(subj1,pred1,obj1,6);
     TemporalTriple ttsame = new TemporalTriple(subj1,pred1,obj,7);
     TemporalTriple tt56= new TemporalTriple(subj1,pred1,obj3,20);
-    graph.add(tt);
-    graph.add(ttnew);
-    graph.add(tt1);
+    //graph.add(tt);
+    //graph.add(ttnew);
+    //graph.add(tt1);
     coror.setOntology(graph);
-    graph.add(ttsame);
-    graph.add(tthumanoid);
-    graph.add(stephenhumanoid);
+
+   // graph.add(ttsame);
+   // graph.add(tthumanoid);
+   // graph.add(stephenhumanoid);
     
     
     
     coror.startReasoner();
+    ((RETERuleInfGraph)coror.getInfGraph()).fadd=new FGraph(Factory.createDefaultGraph());
+        ((RETERuleInfGraph)coror.getInfGraph()).addnewTriple(tt);
+    ((RETERuleInfGraph)coror.getInfGraph()).addnewTriple(ttnew);
+    ((RETERuleInfGraph)coror.getInfGraph()).addnewTriple(tt1);
         InfGraph infGraph = coror.getInfGraph();
     for(ExtendedIterator it = infGraph.find(Node.ANY, Node.ANY, Node.ANY); it.hasNext();){
             System.err.println(it.next());
         }
     
-    graph.add(tt56);
+    ((RETERuleInfGraph)coror.getInfGraph()).addnewTriple(tt56);
     infGraph.rebind();
     System.out.println("Rebinding");
     //RETERuleInfGraph delgraph =((RETERuleInfGraph)infGraph);
@@ -68,7 +74,7 @@ public class TemporalTest {
         
             
             //coror.removeTriple(temp);
-            //System.out.println("delete "+temp.toString());
+            System.out.println("delete "+temp.toString());
             ((RETERuleInfGraph)infGraph).performDeleteTimeTriples(temp,i);
             
             //((TemporalRETERuleInfGraph)infGraph).sweepGraph(0, i);
